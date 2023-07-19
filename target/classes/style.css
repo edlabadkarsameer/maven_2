@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .container {
+    display: flex;
+    flex-direction: row;
+    height: 80%;
+  }
+  
+
+
+  .div1 {
+    flex: 30%;
+    background-color: lightblue;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+  }
+  
+
+
+  .div2 {
+    flex: 70%;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    border-left: 0px solid black;
+  }
+
+  
+  
+  .full-width-button {
+    width: 100%;
+    background-color: coral;
+    color: white;
+    height: 50px;;
+    margin-top: 30px;
+    border: 2px solid black;
+  }
+  
